@@ -31,18 +31,21 @@
 		<div class="container">
 
 			<div class="row">
+					<div class="col-md-4">
+							<img class="photo" src="img/me.jpg" alt="Avatar" style="width: 200px">
+					</div>
 				<div class="col-md-12">
 					<div class="title1">Hello There!</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-md-7 col-md-offset-1">
+				<div class="col-md-7">
 					<div class="title2">I'm Brian Sheridan 
 						<br> I’m passionate about coding and constantly upskilling by working on various side projects.
 					</div>
 
-                    <div>Currently Looking for work in the Software Development industry. <br>
+                    <div class="plea">Currently Looking for work in the Software Development industry. <br>
                        Recent Graduate @ Code Institute 
                        <a href="https://www.codeinstitute.net/">
                        <img src="img/code.jpg" class="like">
@@ -56,7 +59,7 @@
 						<a href="https://www.linkedin.com/in/brian-sheridan-b7845a132/" target="none">
 							<div class="button button1"><img src="img/linkedin.svg" style="margin-top: -1px"></div>
 						</a>
-						<!-- <a href="https://www.dropbox.com/s/x6qqjozocdo5b8z/ErikBue_Resume.pdf?dl=0" target="none"> -->
+						
 						<a href="img/Brian-Sheridan-CV.pdf" target="none">
 							<div class="button button2">CV</div>
 						</a>
@@ -134,7 +137,7 @@
 				</div>
 			</a>
 
-			<a href="http://erikbue.com/personaltrainer">
+			<a href="https://desolate-coast-83571.herokuapp.com/">
 				<div class="row preview-row">
 					<div class="col-md-4 col-sm-4">
 						<img src="img/weight.png" class="img-responsive">
@@ -144,40 +147,27 @@
 							<div class="preview-title">Weight Converter App: <span>Small Project in which I built a Weight Convertor app Using JavaScript and Bootstrap 4 for the ui.
 								Its main use is to convert pounds to Grams, kilograms and ounces. 
 							</span></div>
-							<div class="preview-date">2015 / MOBILE + WATCH + TV APP</div>
+							<div class="preview-date">2017 September / APP </div>
 						</div>
 					</div>
 				</div>
 			</a>
 
-			<a href="http://erikbue.com/trackmygolf">
+			<a href="https://com-dash-imdb.herokuapp.com/">
 				<div class="row preview-row">
 					<div class="col-md-4 col-sm-4">
-						<img src="images/trackmygolf2.jpg" class="img-responsive">
+						<img src="img/imdb.jpg" class="img-responsive">
 					</div>
 					<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
 						<div class="preview-info">
-							<div class="preview-title">TrackMyGolf</div>
-							<div class="preview-date">2015 / MOBILE + WATCH APP</div>
+							<div class="preview-title">IMDB Dashboard: <span>Built a responsive dashboard introducing the Python language.  Which incorporated work using MySQL, RoboMongo and DB server light to obtain data to plot on various charts such as Pie, Composite, Line charts etc. </span></div>
+							<div class="preview-date">2017 June / PLOT + CHART</div>
 						</div>
 					</div>
 				</div>
 			</a>
 
-			<a href="http://erikbue.com/scouting">
-				<div class="row preview-row">
-					<div class="col-md-4 col-sm-4">
-						<img src="images/scouting.jpg" class="img-responsive">
-					</div>
-					<div class="col-md-7 col-md-offset-1 col-sm-7 col-sm-offset-1">
-						<div class="preview-info">
-							<div class="preview-title">SAP Scouting</div>
-							<div class="preview-date">2013-14 / WEB APP</div>
-						</div>
-					</div>
-				</div>
-			</a>
-
+			
 
 		</div>
 	</section>
@@ -189,19 +179,14 @@
 			<div class="row">
 
 				<div class="col-md-7 col-md-offset-1 col-md-push-4 col-sm-7 col-sm-push-5">
-					<div class="footer-project-title">PROJECTS &mdash;</div>
-					<div class="footer-project"><a href="http://erikbue.com/favoritealbums-2016" target="_blank">My Favorite Albums: 2016</a></div>
-					<div class="footer-project"><a href="http://erikbue.com/facebook">Facebook</a></div>
-					<div class="footer-project"><a href="http://erikbue.com/buesic">BUEsic</a></div>
-					<div class="footer-project"><a href="http://erikbue.com/exercisetracker">TrackMyFitness: <span>Exercise Tracker</span></a></div>
-					<div class="footer-project"><a href="http://erikbue.com/personaltrainer">TrackMyFitness: <span>Personal Trainer</span></a></div>
-					<div class="footer-project"><a href="http://erikbue.com/trackmygolf">TrackMyGolf</a></div>
-					<div class="footer-project"><a href="http://erikbue.com/scouting">SAP Scouting</a></div>
-					<!-- <div class="footer-project"><a href="http://erikbue.com/vyo">Vyo</a></div> -->
+					<div class="footer-project-title">Personal Information &mdash;</div>
+					<div class="footer-project">Address: <span>Courtown Road, Kilcock Co.Kildare</span></div>
+					<div class="footer-project">Email: <span>briansheridan732@gmail.com</span></div>
+					<div class="footer-project">Phone Number: <span>0897058604</span></div>
 				</div>
 				<div class="col-md-4 col-md-pull-8 col-sm-5 col-sm-pull-7">
-					<div class="copyright1">&copy; Erik Bue</div>
-					<div class="copyright2">Developed by me with code only a mother could love.</div>
+					<div class="copyright1">&copy; Brian Sheridan</div>
+					<div class="copyright2">Developed by Brian Sheridan January 2018.</div>
 				</div>
 			</div>
 		</div>
@@ -221,10 +206,7 @@
 	 // Get page title
 	 var pageTitle = $("title").text();
 
-	 // Change page title on blur
-	 $(window).blur(function() {
-	 	$("title").text("Baby come back...");
-	 });
+	 
 
 	 // Change page title back on focus
 	 $(window).focus(function() {
@@ -260,19 +242,7 @@
 		});
 	</script>
 
-	 <!-- TYPED.JS 
-
-	 <script src="js/typed.js"></script>
-	 <script>
-		$(function(){
-			 $(".bue").typed({
-				strings: ["A room with a <span>Bue</span>", "It's a <span>Bue</span>-tiful day", "I woke up in a new <span>Bue</span>-gatti"],
-				typeSpeed: 40
-			 });
-		});
-	 </script>
-
-	-->
+	
 
 </body>
 </html>

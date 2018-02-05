@@ -250,9 +250,18 @@
     
     
     .intro {
-        background-color: rgba(174, 112, 255, 1);
+        background-image: url('../img/coding.jpeg');
         min-height: 70vh;
         padding: 100px 0px;
+    }
+
+    .plea{
+        font-size: 15px;
+    }
+
+    .photo{
+        border-radius: 50%;
+        align-content: center;
     }
     
     .intro-hover {
@@ -469,7 +478,7 @@
     }
     
     .section-header {
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 600;
         color: rgba(0,0,0,0.3);
         text-transform: uppercase;
